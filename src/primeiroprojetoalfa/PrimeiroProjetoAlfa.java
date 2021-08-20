@@ -48,15 +48,6 @@ public class PrimeiroProjetoAlfa {
  //Multiplicação
         resultado = n1 * n2;
        Scanner ler = new Scanner (System.in);*/
-        
-        double vendas, salárioFinal;
-
-        System.out.print ("Total de vendas mensal:  ");
-        vendas = ler.nextDouble ();
-
-        salárioFinal = (3000+((3000*0.02)*vendas));
- 
-        System.out.println ("salário no fim do mês é " + salárioFinal);
-         
+          
     }
 }   
