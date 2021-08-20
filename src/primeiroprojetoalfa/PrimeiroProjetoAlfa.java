@@ -18,36 +18,17 @@ public class PrimeiroProjetoAlfa {
      */
     
     public static void main(String[] args) {  
-       /* String minhaString;
-        minhaString = "Eu sou Yuri, tenho ";
-        int x;
-        x = 24;
-        System.out.println(minhaString + x + " anos.");
-        System.out.println("Prazer em conhecê-los.");*/
-        // TODO code application logic here
-        /*int n1, n2, n3, n4, media;
-        n1 = 8;
-        n2 = 5;
-        n3 = 9;
-        n4 = 10;
-                media = (n1+n2+n3+n4)/4;
-                System.out.println("Média = "+ media);
-        
-                int n1, n2, resultado;
-        n1 = 8;
-        n2 = 2;
-//Soma
-        resultado = n1 + n2;
-        System.out.println("Soma: " + resultado);
- //Subtração
-        resultado = n1 - n2;
-        System.out.println("Subtração: " + resultado);
- //Divisão
-        resultado = n1 / n2;
-        System.out.println("Divisão: " + resultado);
- //Multiplicação
-        resultado = n1 * n2;
-       Scanner ler = new Scanner (System.in);*/
-          
+  
+        double Salami, L, VL, conta, Vdesc;
+	Scanner ler = new Scanner (System.in);
+            System.out.print("Insira o salário mínimo: ");
+ 	Salami = ler.nextDouble();
+            System.out.print("Insira consumo mensal em (L): ");
+ 	L = ler.nextDouble();
+        VL =((L/1000)*0.02);
+        conta = (Salami*VL);
+            System.out.println("Valor da conta de água: "+conta+" R$");
+        Vdesc = (conta-(conta*0.15));
+            System.out.println("Valor c/ desconto de 15%: "+Vdesc+" R$");
     }
 }   
