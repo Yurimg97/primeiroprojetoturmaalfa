@@ -31,8 +31,9 @@ public class PrimeiroProjetoAlfa {
         n3 = 9;
         n4 = 10;
                 media = (n1+n2+n3+n4)/4;
-                System.out.println("Média = "+ media);*/
-        /*int n1, n2, resultado;
+                System.out.println("Média = "+ media);
+        
+                int n1, n2, resultado;
         n1 = 8;
         n2 = 2;
 //Soma
@@ -46,10 +47,7 @@ public class PrimeiroProjetoAlfa {
         System.out.println("Divisão: " + resultado);
  //Multiplicação
         resultado = n1 * n2;
-        System.out.println("Multiplicação: " + resultado);*/
-       
-        
-        Scanner ler = new Scanner (System.in);
+       Scanner ler = new Scanner (System.in);*/
         
         double vendas, salárioFinal;
 
